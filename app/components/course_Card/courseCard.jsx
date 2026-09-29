@@ -17,7 +17,8 @@ export default function Courses() {
               <Image
                 src={course.image}
                 alt={course.title}
-                fill
+                width={341}
+                height={195}
                 className="object-cover"
               />
 
@@ -38,13 +39,19 @@ export default function Courses() {
 
             <div className="mt-5 mb-4 flex items-start justify-between">
               <div className="min-w-0">
-                <h3 className="truncate text-xl font-semibold font-sans text-[#080D1C] overflow-hidden ">
+                <Link
+                  href={course.link}
+                  className="truncate hover:text-[#A5FE0D] cursor-pointer text-xl font-semibold font-sans text-[#080D1C] overflow-hidden "
+                >
                   {course.title}
-                </h3>
+                </Link>
 
                 <p className="mt-0.5  text-xs text-[#4F4F4F]">
                   by
-                  <Link href={course.authLink} className="text-[#003BE2] ml-1">
+                  <Link
+                    href={course.authorLink}
+                    className="text-[#003BE2] ml-1"
+                  >
                     {course.author}
                   </Link>
                 </p>

@@ -1,23 +1,5 @@
-const categories = [
-  "Featured",
-  "Music",
-  "Drawing & Painting",
-  "Marketing",
-  "Animation",
-  "Social Media",
-  "UI/UX Design",
-  "Creative Marketing",
-  "Digital Illustration",
-  "Film & Video",
-  "Crafts",
-  "Freelance & Entrepreneurship",
-  "Graphic Design",
-  "Photography",
-  "Productivity",
-  "Web Development",
-  "Data Science",
-  "Cooking",
-];
+import Tags from "../tags/tags";
+import data from "../../../data/data.json";
 
 export default function SkilsTags() {
   return (
@@ -29,7 +11,7 @@ export default function SkilsTags() {
           Build Your Skills
         </h2>
 
-        <p className="mt-4 text-center font-satoshi text-base md:text-lg text-[#82868E]">
+        <p className="mt-4 mb-7 text-center font-satoshi text-base md:text-lg text-[#82868E]">
           At Bytespace Courses, we bring you closer to life-changing knowledge.
           Explore a variety of courses across different
           <br />
@@ -37,24 +19,14 @@ export default function SkilsTags() {
           career and life.
         </p>
 
-        <div className="mt-7 flex max-w-275 flex-wrap justify-center gap-4">
-          {categories.map((category, index) => (
-            <button
-              key={category}
-              className={`rounded-full px-4 py-3 font-satoshi text-sm md:text-base cursor-pointer leading-none transition-colors ${
-                index === 0
-                  ? "bg-[#CBFC01] text-black "
-                  : "bg-[#F5F5F6] text-[#4B4C53] hover:bg-[#CBFC01] hover:text-[#080D1C]"
-              }`}
-            >
-              {category}
+        <Tags
+          value={data.skilTags}
+          button={
+            <button className="px-3 py-3 font-satoshi cursor-pointer text-[#003BE2]">
+              + More
             </button>
-          ))}
-
-          <button className="px-3 py-3 font-satoshi cursor-pointer text-[#003BE2]">
-            + More
-          </button>
-        </div>
+          }
+        />
       </div>
     </section>
   );

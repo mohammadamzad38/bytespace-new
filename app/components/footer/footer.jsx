@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className="w-full bg-white">
       <div className="mx-auto container">
-        <div className="flex gap-10 pt-17.75 pb-32.5 lg:gap-23">
+        <div className="flex flex-col md:flex-row gap-10 pt-17.75 pb-20 md:pb-32.5 lg:gap-23">
           <div>
             {/* Logo */}
             <Link href="/" className="w-42.75 h-9.25 text-black">
@@ -25,7 +25,7 @@ export default function Footer() {
               Stay Up to date with our latest features and releases by joining
               our newsletter.
             </p>
- 
+
             {/* Newsletter */}
             <form className="flex gap-6 mt-11.25">
               <input
@@ -36,7 +36,7 @@ export default function Footer() {
 
               <button
                 type="submit"
-                className="rounded-3xl text-center bg-[#c7fa18] px-6 py-3 text-lg font-medium text-black transition hover:bg-[#baf000] cursor-pointer"
+                className="rounded-2xl md:rounded-3xl text-center bg-[#c7fa18] px-4 md:px-6 py-1 md:py-3 leading-none text-sm md:text-lg font-medium text-black transition hover:bg-[#baf000] cursor-pointer"
               >
                 Search
               </button>
@@ -59,7 +59,7 @@ export default function Footer() {
         <div className="border-t border-[#dedede]" />
 
         {/* Bottom bar */}
-        <div className="flex flex-col gap-4 pt-5.75 pb-12 sm:flex-row sm:items-center sm:justify-between">
+        <div className="flex flex-col gap-4 pt-5.75 pb-12 sm:flex-row items-center sm:justify-between">
           <p className="text-sm font-satoshi text-[#242528]">
             © 2023 ByteSpace. All rights reserved.
           </p>

@@ -60,12 +60,15 @@ export default function GrowthSection() {
               {/* Course Card */}
               <div className="absolute left-5 top-2 z-10 h-96 max-w-93.25 w-full rounded-3xl border border-[#D9DCE2] bg-white p-4 shadow-sm">
                 <div className="relative h-[195.14px] w-full overflow-hidden rounded-[10px]">
-                  <Image
-                    src="/images/others/card.jpg"
-                    alt="Course"
-                    fill
-                    className="object-cover"
-                  />
+                  <div className="w-85.25 h-48.75">
+                    <Image
+                      src="/images/others/card.jpg"
+                      alt="Course"
+                      width={341}
+                      height={195}
+                      className="object-cover "
+                    />
+                  </div>
                   <div className="absolute font-satoshi bottom-[19.14px] left-3 right-3 flex text-xs items-center justify-between">
                     <span className="rounded-full bg-white/80 px-3 py-1.5  text-[#4F4F4F] backdrop-blur-sm ">
                       12 Leasons

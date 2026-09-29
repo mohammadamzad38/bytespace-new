@@ -1,11 +1,12 @@
 import Link from "next/link";
 
-
-export default function Btn({ text, href, className }) {
+export default function Btn({ text, href, style, className, icon0, icon }) {
   return (
     <div>
-      <Link className={className |"cursor-pointer"} href={href} >
+      <Link style={style} className={className || "cursor-pointer"} href={href}>
+        {icon}
         {text}
+        {icon0}
       </Link>
     </div>
   );
