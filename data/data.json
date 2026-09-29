@@ -1,0 +1,273 @@
+{
+  "navLinks": [
+    {
+      "name": "Home",
+      "href": "/"
+    },
+    {
+      "name": "Courses",
+      "href": "/courses"
+    },
+    {
+      "name": "Creators",
+      "href": "/creators"
+    }
+  ],
+
+  "categories": [
+    "Featured",
+    "Music",
+    "Drawing & Painting",
+    "Marketing",
+    "Animation",
+    "Social Media",
+    "UI/UX Design",
+    "Creative Marketing",
+    "Digital Illustration",
+    "Film & Video",
+    "Crafts",
+    "Freelance & Entrepreneurship",
+    "Graphic Design",
+    "Photography",
+    "Productivity",
+    "Web Development",
+    "Data Science",
+    "Cooking"
+  ],
+
+  "logos": [
+    "/images/ligoipshum/Frame (4).png",
+    "/images/ligoipshum/Frame (3).png",
+    "/images/ligoipshum/Frame (2).png",
+    "/images/ligoipshum/Frame (1).png",
+    "/images/ligoipshum/Frame.png"
+  ],
+
+  "courses": [
+    {
+      "id": 1,
+      "image": "/images/course/coding.jpg",
+      "title": "Learn Figma from Basic",
+      "author": "purepural studio",
+      "authorLink": "/creators/purepural-studio",
+      "authLink": "/courses/learn-figma-from-basic",
+      "rating": "4.2",
+      "lessons": "20 Lessons",
+      "duration": "1 hours",
+      "comments": "79 Comments",
+      "level": "Beginner",
+      "price": "$225",
+      "priceType": "Lifetime",
+      "visitor_images": "/images/ellips/Ellipse (1).png"
+    },
+    {
+      "id": 2,
+      "image": "/images/course/digital-asset.jpg",
+      "title": "Build Digital Asset",
+      "author": "purepural studio",
+      "authorLink": "/creators/purepural-studio",
+      "authLink": "/course/build-digital-asset",
+      "rating": "4.1",
+      "lessons": "12 Lessons",
+      "duration": "3 hours 16 mins",
+      "comments": "29 Comments",
+      "level": "Beginner",
+      "price": "$165",
+      "priceType": "Lifetime",
+      "visitor_images": "/images/ellips/Ellipse (2).png"
+    },
+    {
+      "id": 3,
+      "image": "/images/course/bigdata.jpg",
+      "title": "The Power of Big Data",
+      "author": "purepural studio",
+      "authorLink": "/creators/purepural-studio",
+      "authLink": "/course/power-of-big-data",
+      "rating": "4.6",
+      "lessons": "19 Lessons",
+      "duration": "5 hours 16 mins",
+      "comments": "69 Comments",
+      "level": "Beginner",
+      "price": "$65",
+      "priceType": "Lifetime",
+      "visitor_images": "/images/ellips/Ellipse (3).png"
+    },
+    {
+      "id": 4,
+      "image": "/images/course/productivity.jpg",
+      "title": "Balancing Productivity and Work",
+      "author": "purepural studio",
+      "authorLink": "/creators/purepural-studio",
+      "authLink": "/course/balancing-productivity-and-work",
+      "rating": "4.0",
+      "lessons": "32 Lessons",
+      "duration": "4 hours 6 mins",
+      "comments": "39 Comments",
+      "level": "Beginner",
+      "price": "$75",
+      "priceType": "Lifetime",
+      "visitor_images": "/images/ellips/Ellipse (4).png"
+    },
+    {
+      "id": 5,
+      "image": "/images/course/mastaring.jpg",
+      "title": "Mastering Money Management",
+      "author": "purepural studio",
+      "authorLink": "/creators/purepural-studio",
+      "authLink": "/course/mastering-money-management",
+      "rating": "4.3",
+      "lessons": "11 Lessons",
+      "duration": "12 hours 26 mins",
+      "comments": "89 Comments",
+      "level": "Beginner",
+      "price": "$85",
+      "priceType": "Lifetime",
+      "visitor_images": "/images/ellips/Ellipse (5).png"
+    },
+    {
+      "id": 6,
+      "image": "/images/course/startup.jpg",
+      "title": "From Idea to Startup Success",
+      "author": "purepural studio",
+      "authorLink": "/creators/purepural-studio",
+      "authLink": "/course/from-idea-to-startup-success",
+      "rating": "4.5",
+      "lessons": "26 Lessons",
+      "duration": "1 hours 46 mins",
+      "comments": "40 Comments",
+      "level": "Beginner",
+      "price": "$75",
+      "priceType": "Lifetime",
+      "visitor_images": "/images/ellips/Ellipse (6).png"
+    }
+  ],
+
+  "users": [
+    "/images/users/user-1.jpg",
+    "/images/users/user-2.jpg",
+    "/images/users/user-3.jpg",
+    "/images/users/user-4.jpg"
+  ],
+
+  "visitor_images": [
+    "/images/ellips/Ellipse (1).png",
+    "/images/ellips/Ellipse (2).png",
+    "/images/ellips/Ellipse (3).png",
+    "/images/ellips/Ellipse (4).png"
+  ],
+
+  "students_image": [
+    "/images/students/std-1.png",
+    "/images/students/std-2.png",
+    "/images/students/std-3.png",
+    "/images/students/std-4.png",
+    "/images/students/std-5.png",
+    "/images/students/std-7.png",
+    "/images/students/std-6.png"
+  ],
+
+  "learningPaths": [
+    {
+      "name": "Design",
+      "icon": "MdDesignServices"
+    },
+    {
+      "name": "Development",
+      "icon": "MdDeveloperMode"
+    },
+    {
+      "name": "IT & Software",
+      "icon": "MdOutlineLaptop"
+    },
+    {
+      "name": "Business",
+      "icon": "IoBusiness"
+    },
+    {
+      "name": "Marketing",
+      "icon": "/images/others/marketing.png"
+    },
+    {
+      "name": "Photography",
+      "icon": "/images/others/photography.png"
+    }
+  ],
+  "creatorShapes": [
+    {
+      "image": "/images/shape/shape-1.png",
+      "color": "#D4FB20"
+    },
+    {
+      "image": "/images/shape/shape-1.png",
+      "color": "#FFFFFF"
+    },
+    {
+      "image": "/images/shape/shape-2.png",
+      "color": "#CBFC01"
+    },
+    {
+      "image": "/images/shape/shape-3.png",
+      "color": "#FFFFFF"
+    },
+    {
+      "image": "/images/shape/shape-4.png",
+      "color": "#FFFFFF"
+    },
+    {
+      "image": "/images/shape/shape-5.png",
+      "color": "#CBFC01"
+    },
+    {
+      "image": "/images/shape/shape-1.png",
+      "color": "#D4FB20"
+    }
+  ],
+
+  "community": [
+    {
+      "name": "Sarah M.",
+      "role": "Enthusiastic Learner",
+      "image": "/images/community/man-1.png",
+      "text": "ByteSpace has transformed my approach to learning. The diverse range of courses and the quality of content provided by creators have exceeded my expectations. The platform truly fosters a sense of community and lifelong learning."
+    },
+    {
+      "name": "James L.",
+      "role": "Lifelong Learner",
+      "image": "/images/community/man-2.png",
+      "text": "I've tried several online learning platforms, and ByteSpace stands out for its vibrant community and the variety of courses available. The easy navigation and engaging content make it a go-to platform for continuously skill development."
+    },
+    {
+      "name": "Alex B.",
+      "role": "Inspired Creator",
+      "image": "/images/community/man-3.png",
+      "text": "As a creator, I'm passionate about sharing knowledge and helping others grow. The course editor is user-friendly, and the support from the community is incredible. It's fulfilling to see my courses making a positive impact on learners globally."
+    }
+  ],
+  "legalLinks": [
+    { "label": "Privacy Policy", "href": "/privacy-policy" },
+    { "label": "Terms of Service", "href": "/terms" },
+    { "label": "Cookies Settings", "href": "/cookies-settings" }
+  ],
+
+  "navOne": [
+    { "label": "Featured Courses", "href": "/courses" },
+    { "label": "Featured Categories", "href": "/categories" },
+    { "label": "Business", "href": "/categories/business" },
+    { "label": "IT", "href": "/categories/it" },
+    { "label": "Design", "href": "/categories/design" }
+  ],
+  "navTwo": [
+    { "label": "Development", "href": "/categories/development" },
+    { "label": "Marketing", "href": "/categories/marketing" },
+    { "label": "Photography", "href": "/categories/photography" },
+    { "label": "Finance", "href": "/categories/finance" },
+    { "label": "Sport", "href": "/categories/sport" }
+  ],
+  "navThree": [
+    { "label": "Become a Creator", "href": "/become-creator" },
+    { "label": "Affiliate Program", "href": "/affiliate" },
+    { "label": "Contact", "href": "/contact" },
+    { "label": "Help", "href": "/help" },
+    { "label": "About", "href": "/about" }
+  ]
+}
