@@ -2,6 +2,7 @@ import Tags from "../tags/tags";
 import { MdSearch } from "react-icons/md";
 import data from "../../../data/data.json";
 import { FaAngleDown } from "react-icons/fa6";
+import FilterBar from "../filterBar/filter_Bar";
 import Pagination from "../pagination/pagination";
 import CourseCard from "../course_Card/courseCard";
 
@@ -27,7 +28,9 @@ export default function Courses() {
           </button>
         </form>
       </div>
-
+      <div className="pt-18 bg-white">
+        <FilterBar />
+      </div>
       <div className="bg-white pt-8 pb-19.25">
         <Tags value={data.skilss} />
       </div>

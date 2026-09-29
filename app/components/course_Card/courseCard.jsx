@@ -19,7 +19,7 @@ export default function Courses() {
                 alt={course.title}
                 width={341}
                 height={195}
-                className="object-cover"
+                className="object-cover w-full"
               />
 
               <div className="absolute font-satoshi bottom-[19.14px] left-3 right-3 flex text-xs items-center justify-between">

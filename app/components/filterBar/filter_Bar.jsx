@@ -1,13 +1,13 @@
 import Btn from "../button/btn";
-import { MdOutlineFilterAlt } from "react-icons/md";
 import { FiBarChart } from "react-icons/fi";
-import { MdOutlineCategory } from "react-icons/md";
 import { BiMenuAltLeft } from "react-icons/bi";
+import { MdOutlineCategory } from "react-icons/md";
+import { MdOutlineFilterAlt } from "react-icons/md";
 
 export default function FilterBar() {
   return (
     <div className="bg-white">
-      <div className="container pt-18 flex flex-wrap gap-4 items-center justify-center md:justify-between">
+      <div className="container flex flex-wrap gap-4 items-center justify-center md:justify-between">
         <div className="flex flex-wrap gap-4 ">
           <Btn
             href={""}

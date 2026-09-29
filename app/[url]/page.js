@@ -8,6 +8,7 @@ export default async function Page({ params }) {
   const pages = {
     author: Author,
     courses: Courses,
+
   };
   const Components = pages[url];
 
