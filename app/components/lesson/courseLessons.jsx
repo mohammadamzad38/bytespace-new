@@ -5,7 +5,7 @@ export default function Lesson() {
   const modules = data.modules;
 
   return (
-    <section className="md:max-w-[80%] lg:max-w-[60%] mx-auto pb-10 md:pb-15.5 lg:mx-0 w-full bg-white">
+    <section className="md:max-w-[80%] lg:max-w-[60%] mx-auto pb-10 md:pb-21 lg:mx-0 w-full bg-white">
       <div className="mb-7">
         <h2 className="text-xl font-semibold font-sans tracking-tight text-[#4B4C53]">
           {modules.title}
@@ -26,17 +26,17 @@ export default function Lesson() {
           {modules.lessonList.lessons.map((lesson) => (
             <div key={lesson.id} className="flex items-start gap-4">
               {/* Play Icon */}
-              <div className="flex h-18 max-w-18 w-full items-center justify-center rounded-3xl bg-[#D4FB20] text-black">
-                <FiVideo size={40} />
+              <div className="flex h-12 lg:h-18 max-w-12 lg:max-w-18 w-full items-center justify-center rounded-xl lg:rounded-3xl bg-[#D4FB20] text-black">
+                <FiVideo className="h-5 w-5 lg:h-10 lg:w-10" />
               </div>
 
               {/* Lesson Info */}
               <div className="min-w-0">
-                <h4 className="font-satoshi font-medium leading-5 text-[#242528]">
+                <h4 className="font-satoshi font-medium leading-5 text-black">
                   {lesson.title}
                 </h4>
 
-                <p className="mt-1 font-satoshi font-thin text-[#4B4C53]">
+                <p className="mt-1 text-sm md:text-base font-satoshi font-thin text-[#4B4C53]">
                   {lesson.description}
                 </p>
               </div>
@@ -67,7 +67,7 @@ export default function Lesson() {
         </p>
 
         {/* Progress */}
-        <div className="mt-5 p-4 border font-satoshi border-gray-200 rounded-2xl backdrop-blur-20">
+        <div className="mt-5 p-4 border font-satoshi border-gray-200 rounded-2xl backdrop-blur-[20px]">
           <div className="flex flex-col gap-2">
             <span className="text-sm font-satoshi font-medium text-[#242528]">
               {modules.lessonProgress.progress.label}
@@ -78,7 +78,7 @@ export default function Lesson() {
             </span>
           </div>
 
-          <div className="h-1.5 mt-2 max-w-180.75 w-full overflow-hidden rounded-full bg-[#e6e6e6]">
+          <div className="h-1.5 mt-2 max-w-[80%] lg:max-w-180.75 w-full overflow-hidden rounded-full bg-[#e6e6e6]">
             <div
               className="h-full rounded-full bg-[#D4FB20] transition-all duration-500"
               style={{

@@ -1,9 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import About from "../components/about/about";
-import Lesson from "../components/lesson/courseLessons";
-import Reviews from "../components/review/course_Reviews";
+import About from "../about/about";
+import Lesson from "../lesson/courseLessons";
+import Reviews from "../review/course_Reviews";
 
 const tabs = [
   { label: "About", content: <About /> },

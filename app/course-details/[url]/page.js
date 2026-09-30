@@ -5,7 +5,7 @@ import Btn from "../../components/button/btn";
 import { MdOutlineShare } from "react-icons/md";
 import { MdOutlinePeople } from "react-icons/md";
 import EnrollCard from "../../components/enroll_Card/enroll_Card";
-import TabsController from "../../components/tabs_controller";
+import TabsController from "../../components/controller/tabs_controller";
 
 export default async function Page({ params }) {
   const { url } = await params;
@@ -58,10 +58,10 @@ export default async function Page({ params }) {
               height="315"
               src="https://www.youtube.com/embed/sRWcJrMTtMI?si=itTWUGJW0QqIfd6I&amp;controls=0&amp;start=14"
               title="YouTube video player"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
               className="rounded-3xl"
             ></iframe>
           </div>

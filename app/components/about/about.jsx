@@ -29,18 +29,18 @@ export default function CourseAbout() {
           {about.sneakPeak.title}
         </h2>
 
-        <div className="grid grid-cols-2 gap-5 md:grid-cols-4">
+        <div className="grid grid-cols-2 gap-5 w-full md:grid-cols-4">
           {about.sneakPeak.images.map((image, index) => (
             <div
               key={index}
-              className="relative w-full overflow-hidden rounded-2xl"
+              className="relative h-31.25 overflow-hidden rounded-2xl"
             >
               <Image
                 src={image}
-                alt={`Sneak peak ${index + 1}`}
+                alt=""
                 width={167}
                 height={125}
-                className="object-cover h-31.25 w-full"
+                className="h-full w-full object-cover"
               />
             </div>
           ))}

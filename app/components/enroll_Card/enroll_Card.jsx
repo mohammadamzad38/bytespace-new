@@ -23,14 +23,14 @@ const lessons = [
 
 export default function EnrollCard({ creator }) {
   return (
-    <aside className="w-full max-w-103 rounded-3xl leading-none border border-[#CED0D3 ] bg-white p-10 font-satoshi  text-[#4B4C53] shadow-sm">
+    <aside className="w-full max-w-103 rounded-3xl leading-none border border-[#CED0D3] bg-white p-10 font-satoshi  text-[#4B4C53] shadow-sm">
       <h3 className="text-xl font-semibold font-sans mb-6 text-black">
         112 Lessons (24 hours)
       </h3>
       <ol className="mt-4 space-y-3">
         {lessons.map((l, i) => (
           <li
-            key={l.title}
+            key={l.text}
             className="flex font-satoshi justify-between gap-4 text-black"
           >
             <span className="flex gap-3">

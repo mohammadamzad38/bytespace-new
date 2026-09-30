@@ -1,20 +1,17 @@
 "use client";
 
-import Btn from "../button/btn";
 import Link from "next/link";
 import Image from "next/image";
-import { usePathname } from "next/navigation";
+import Btn from "../button/btn";
+import data from "../../../data/data.json";
 import { MdOutlineShoppingBag } from "react-icons/md";
 import Logo from "../../../public/images/Header_Logo.png";
-import data from "../../../data/data.json";
 
 export default function Header() {
-  const pathname = usePathname();
-
   return (
     <header className="w-full bg-grid">
-      <div className="container flex h-30 items-center justify-between">
-        <Link href={"/"} className="h-9.25 w-42.75">
+      <div className="container h-30  grid  grid-cols-[40%_60%] md:flex md:justify-between items-center  ">
+        <Link href="/" className="h-9.25 w-42.75">
           <Image
             src={Logo}
             width={300}
@@ -24,30 +21,27 @@ export default function Header() {
           />
         </Link>
 
-        <nav className="flex items-center gap-2 font-satoshi">
-          {data.navLinks.map((link) => {
-            const active = pathname === link.href;
-
-            return (
+        <div className="flex flex-col items-center gap-3 md:contents">
+          <nav className="flex md:flex-row gap-6 font-satoshi items-end md:items-center">
+            {data.navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                className={`rounded-full px-5 py-2 transition-colors ${
-                  active
-                    ? "bg-[#CBFC01] text-black"
-                    : "text-white hover:text-[#CBFC01]"
-                }`}
+                className=" text-white transition-colors"
               >
                 {link.name}
               </Link>
-            );
-          })}
-        </nav>
+            ))}
+          </nav>
 
-        <div className="flex items-center gap-6 font-satoshi text-white">
-          <Btn href="login" text="Sign In" />
-          <Btn href="registration" text="Join Us" />
-          <MdOutlineShoppingBag size={24} />
+          <div className="flex items-center gap-6 font-satoshi text-white">
+            <Btn href="/login" text="Sign In" />
+            <Btn href="/registration" text="Join Us" />
+            <Btn
+              href="/registration"
+              icon={<MdOutlineShoppingBag size={24} />}
+            />
+          </div>
         </div>
       </div>
     </header>

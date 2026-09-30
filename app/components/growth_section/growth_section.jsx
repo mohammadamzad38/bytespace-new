@@ -66,7 +66,7 @@ export default function GrowthSection() {
                       alt="Course"
                       width={341}
                       height={195}
-                      className="object-cover "
+                      className="object-cover h-full w-full"
                     />
                   </div>
                   <div className="absolute font-satoshi bottom-[19.14px] left-3 right-3 flex text-xs items-center justify-between">

@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className="w-full bg-white border-t border-[#CED0D3]">
       <div className="mx-auto container">
-        <div className="flex flex-col md:flex-row gap-10 pt-17.75 pb-20 md:pb-32.5 lg:gap-23">
+        <div className="flex flex-col lg:flex-row gap-10 pt-17.75 pb-20 md:pb-32.5 lg:gap-23">
           <div>
             {/* Logo */}
             <Link href="/" className="w-42.75 h-9.25 text-black">
@@ -27,7 +27,7 @@ export default function Footer() {
             </p>
 
             {/* Newsletter */}
-            <form className="flex gap-6 mt-11.25">
+            <form className="flex w-full md:w-[60%] lg:w-full gap-6 mt-11.25">
               <input
                 type="email"
                 placeholder="Enter your email"
@@ -50,9 +50,11 @@ export default function Footer() {
           </div>
 
           {/* Link columns */}
-          <NavLinks data={data.navOne} />
-          <NavLinks data={data.navTwo} />
-          <NavLinks data={data.navThree} />
+          <div className="flex  justify-around lg:justify-between w-full mt-8 lg:mt-0">
+            <NavLinks data={data.navOne} />
+            <NavLinks data={data.navTwo} />
+            <NavLinks data={data.navThree} />
+          </div>
         </div>
 
         {/* Bottom divider */}
@@ -61,9 +63,8 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="flex flex-col gap-4 pt-5.75 pb-12 sm:flex-row items-center sm:justify-between">
           <p className="text-sm font-satoshi text-[#242528]">
-            © 2023 ByteSpace. All rights reserved.
+            © {new Date().getFullYear()} ByteSpace. All rights reserved.
           </p>
-
           <div className="flex items-center gap-6">
             {data.legalLinks.map((link) => (
               <Link
