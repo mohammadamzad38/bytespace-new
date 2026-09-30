@@ -6,8 +6,8 @@ import data from "../../../data/data.json";
 
 export default function Courses() {
   return (
-    <section className="w-full bg-white">
-      <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 ">
+    <section className=" bg-white">
+      <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 ">
         {data.courses.map((course) => (
           <div
             key={course.title}
