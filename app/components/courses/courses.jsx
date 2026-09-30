@@ -10,7 +10,7 @@ export default function Courses() {
   return (
     <div>
       <div className="bg-grid flex flex-col items-center pb-17.25">
-        <h1 className="font-sans text-4xl pt-11 font-semibold text-center">
+        <h1 className="font-sans text-4xl pt-11 font-semibold text-white text-center">
           Find Your Next Course
         </h1>
         <form action="submit" className="flex gap-4 mt-8">

@@ -1,7 +1,7 @@
 import Link from "next/link";
-import data from "../../../data/data.json";
-import NavLinks from "./navLink";
 import Image from "next/image";
+import NavLinks from "./navLink";
+import data from "../../../data/data.json";
 
 export default function Footer() {
   return (
@@ -9,7 +9,6 @@ export default function Footer() {
       <div className="mx-auto container">
         <div className="flex flex-col lg:flex-row gap-10 pt-17.75 pb-20 md:pb-32.5 lg:gap-23">
           <div>
-            {/* Logo */}
             <Link href="/" className="w-42.75 h-9.25 text-black">
               <Image
                 src={"/images/footer_logo.png"}
@@ -20,13 +19,11 @@ export default function Footer() {
               />
             </Link>
 
-            {/* Description */}
             <p className="text-sm mt-4 font-satoshi leading-[1.6] text-[#242528]">
               Stay Up to date with our latest features and releases by joining
               our newsletter.
             </p>
 
-            {/* Newsletter */}
             <form className="flex w-full md:w-[60%] lg:w-full gap-6 mt-11.25">
               <input
                 type="email"
@@ -42,14 +39,12 @@ export default function Footer() {
               </button>
             </form>
 
-            {/* Privacy text */}
             <p className="mt-6 font-satoshi text-xs text-[#242528]">
               By subscribing, you agree to our Privacy Policy and consent to
               receive updates from our company.
             </p>
           </div>
 
-          {/* Link columns */}
           <div className="flex  justify-around lg:justify-between w-full mt-8 lg:mt-0">
             <NavLinks data={data.navOne} />
             <NavLinks data={data.navTwo} />
@@ -57,10 +52,8 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bottom divider */}
         <div className="border-t border-[#dedede]" />
 
-        {/* Bottom bar */}
         <div className="flex flex-col gap-4 pt-5.75 pb-12 sm:flex-row items-center sm:justify-between">
           <p className="text-sm font-satoshi text-[#242528]">
             © {new Date().getFullYear()} ByteSpace. All rights reserved.

@@ -17,13 +17,13 @@ export default function AuthForm({ mode = "login" }) {
 
   return (
     <main>
-      <div className="rounded-[13px] bg-white px-16 pt-15 pb-12.75">
+      <div className="rounded-[13px] bg-white px-16 pt-15 pb-12.75 ">
         <div>
           <p className="text-lg font-satoshi font-normal text-[#003BE2]">
             {isSignUp ? "Create an Account" : "Sign In"}
           </p>
 
-          <h1 className="mt-1 text-[44px] font-sans font-semibold text-black">
+          <h1 className="mt-1 text-4xl lf:text-[44px] font-sans font-semibold text-black">
             {isSignUp ? (
               <>
                 Welcome to
