@@ -17,8 +17,7 @@ export default function Courses() {
           <label className="flex h-12 max-w-115.25 w-full flex-1 items-center gap-3 rounded-3xl bg-white px-6 text-gray-500">
             <MdSearch size={20} />
             <input
-              // value={query}
-              // onChange={(e) => setQuery(e.target.value)}
+     
               placeholder="Search"
               className=" bg-transparent text-sm text-black outline-none placeholder:text-gray-500"
             />

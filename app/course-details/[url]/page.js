@@ -72,7 +72,6 @@ export default async function Page({ params }) {
         </div>
       </div>
 
-      {/* Second Part */}
       <div>
         <TabsController />
       </div>

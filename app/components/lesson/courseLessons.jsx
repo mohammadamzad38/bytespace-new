@@ -16,7 +16,6 @@ export default function Lesson() {
         </p>
       </div>
 
-      {/* Lesson List */}
       <div>
         <h3 className="mb-6 text-xl font-sans font-semibold text-[#242528]">
           {modules.lessonList.title}
@@ -25,12 +24,10 @@ export default function Lesson() {
         <div className="space-y-5">
           {modules.lessonList.lessons.map((lesson) => (
             <div key={lesson.id} className="flex items-start gap-4">
-              {/* Play Icon */}
               <div className="flex h-12 lg:h-18 max-w-12 lg:max-w-18 w-full items-center justify-center rounded-xl lg:rounded-3xl bg-[#D4FB20] text-black">
                 <FiVideo className="h-5 w-5 lg:h-10 lg:w-10" />
               </div>
 
-              {/* Lesson Info */}
               <div className="min-w-0">
                 <h4 className="font-satoshi font-medium leading-5 text-black">
                   {lesson.title}
@@ -45,7 +42,6 @@ export default function Lesson() {
         </div>
       </div>
 
-      {/* Lesson Content */}
       <div>
         <h3 className="my-6 text-xl font-sans font-semibold text-black">
           {modules.lessonContent.title}
@@ -56,7 +52,6 @@ export default function Lesson() {
         </p>
       </div>
 
-      {/* Lesson Progress */}
       <div className="mt-6">
         <h3 className="mb-6 text-xl font-semibold text-black">
           {modules.lessonProgress.title}
@@ -66,7 +61,6 @@ export default function Lesson() {
           {modules.lessonProgress.description}
         </p>
 
-        {/* Progress */}
         <div className="mt-5 p-4 border font-satoshi border-gray-200 rounded-2xl backdrop-blur-[20px]">
           <div className="flex flex-col gap-2">
             <span className="text-sm font-satoshi font-medium text-[#242528]">

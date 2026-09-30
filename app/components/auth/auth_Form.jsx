@@ -93,7 +93,6 @@ export default function AuthForm({ mode = "login" }) {
             />
           </div>
 
-          {/* Submit */}
           <div className="mt-6 flex justify-end">
             <button
               type="submit"

@@ -7,7 +7,6 @@ export default function Reviews() {
 
   return (
     <section className="md:max-w-[80%] lg:max-w-[60%] mx-auto pb-10 md:pb-23 lg:mx-0 w-full bg-white">
-      {/* Header */}
       <div>
         <h2 className="text-xl font-sans font-semibold text-[#242528]">
           {reviews?.title}
@@ -18,10 +17,8 @@ export default function Reviews() {
         </p>
       </div>
 
-      {/* Rating Summary */}
       <div className="rounded-2xl border border-[#CED0D3] p-4 md:p-10">
         <div className="flex flex-wrap items-center gap-6">
-          {/* Overall Rating */}
           <div className="flex h-35 max-w-32.25 w-full flex-col items-center justify-center rounded-lg bg-[#D4FB20]">
             <span className="text-sm font-medium text-[#242528] font-satoshi">
               Ratings
@@ -32,11 +29,9 @@ export default function Reviews() {
             </span>
           </div>
 
-          {/* Rating Bars */}
           <div className="flex flex-1 flex-col gap-1">
             {reviews.summary.ratingDistribution.map((item) => (
               <div key={item.rating} className="flex items-center gap-4">
-                {/* Rating Bar */}
                 <div className="h-2 flex-1 overflow-hidden rounded-full bg-[#e5e5e5]">
                   <div
                     className="h-full rounded-full bg-[#D4FB20]"
@@ -46,7 +41,6 @@ export default function Reviews() {
                   />
                 </div>
 
-                {/* Stars */}
                 <div className="flex shrink-0">
                   {Array.from({ length: 5 }).map((_, index) => (
                     <MdOutlineStar
@@ -57,7 +51,6 @@ export default function Reviews() {
                   ))}
                 </div>
 
-                {/* Count */}
                 <span className="w-8 text-right font-satoshi text-[#4B4C53]">
                   {item.count}
                 </span>
@@ -67,13 +60,11 @@ export default function Reviews() {
         </div>
       </div>
 
-      {/* Individual Reviews */}
       <div className="mt-6">
         <h3 className="mb-6 text-xl font-sans font-semibold text-black">
           {reviews.individualReviews.title}
         </h3>
      
-        {/* Filters */}
         <div className="mb-6 flex flex-wrap gap-4">
           {reviews.individualReviews.filters.map((filter, index) => (
             <button
@@ -96,14 +87,12 @@ export default function Reviews() {
           ))}
         </div>
 
-        {/* Review Cards */}
         <div className="space-y-3">
           {reviews.individualReviews.items.map((review) => (
             <div
               key={review.id}
               className="rounded-3xl border border-[#CED0D3] p-10"
             >
-              {/* User */}
               <div className="flex items-start justify-between">
                 <div className="flex items-center gap-3">
                   <Image
@@ -128,7 +117,6 @@ export default function Reviews() {
                 </span>
               </div>
 
-              {/* Stars */}
               <div className="my-6 flex gap-1">
                 {Array.from({ length: review.rating }).map((_, index) => (
                   <MdOutlineStar
@@ -139,7 +127,6 @@ export default function Reviews() {
                 ))}
               </div>
 
-              {/* Comment */}
               <p className="font-satoshi text-[#4B4C53]">"{review.comment}"</p>
             </div>
           ))}

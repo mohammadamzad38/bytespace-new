@@ -5,7 +5,6 @@ import {
   MdDeveloperMode,
   MdDesignServices,
 } from "react-icons/md";
-
 import data from "../../../data/data.json";
 
 export default function CourseCategory() {

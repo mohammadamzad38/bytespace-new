@@ -1,4 +1,3 @@
-import React from "react";
 import FilterBar from "../filterBar/filter_Bar";
 import Courses from "../course_Card/courseCard";
 import Profile from "./profile/profile";

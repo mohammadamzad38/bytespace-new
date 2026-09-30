@@ -25,7 +25,6 @@ export default function AuthHero({ mode }) {
   return (
     <section className="relative w-full overflow-hidden bg-grid pb-60 lg:pb-30">
       <div className="container grid items-start gap-10 md:grid-cols-[1fr_453px]">
-        {/* Left: logo, text, cards */}
         <div className="relative z-10 px-6 pt-5 lg:px-10">
           <div className="mb-11 mt-8.75">
             <Image
@@ -46,7 +45,6 @@ export default function AuthHero({ mode }) {
             </p>
           </div>
 
-          {/* Cards are absolute inside, so this box needs its own height */}
           <div className="relative mt-13 h-96">
             <div className="absolute left-2.5 top-32 z-10 sm:left-20">
               <CourseCard courseId={2} className={cardGrid} />
@@ -57,7 +55,6 @@ export default function AuthHero({ mode }) {
           </div>
         </div>
 
-        {/* Right on md+, below on mobile: one form only */}
         <div className="relative z-10 px-6 mt-50 md:mt-20 md:px-0">
           <AuthForm mode={mode} />
         </div>

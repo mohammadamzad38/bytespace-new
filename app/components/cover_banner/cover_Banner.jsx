@@ -37,7 +37,6 @@ const card = "absolute rounded-xl bg-white p-4 text-left text-black shadow-sm";
 export default function CoverBanner() {
   return (
     <section className="relative overflow-hidden bg-grid pt-12.25 font-satoshi text-white">
-      {/* Shapes */}
       {shapes.map(({ src, className, filter }, idx) => (
         <Image
           key={idx}
@@ -50,7 +49,6 @@ export default function CoverBanner() {
         />
       ))}
 
-      {/* EVERYTHING visible above shapes */}
       <div className="relative  z-10">
         <h1 className="mx-auto max-w-4xl text-center font-sans text-3xl md:text-5xl lg:text-7xl font-semibold leading-tight">
           Get Access to Hundreds Courses Available
@@ -66,10 +64,8 @@ export default function CoverBanner() {
         </div>
 
         <div className="relative mx-auto mt-16 h-90 max-w-287.25">
-          {/* Green circle */}
           <div className="absolute left-1/2 top-10 z-0 aspect-square w-287.25 -translate-x-1/2 rounded-full bg-[#CBFC01]" />
 
-          {/* Person */}
           <Image
             src="/images/others/mode_ml.png"
             width={600}
@@ -78,7 +74,6 @@ export default function CoverBanner() {
             className="absolute -bottom-34 left-1/2 z-10 max-w-144.5 h-134.25 -translate-x-1/2"
           />
 
-          {/* Card */}
           <div className={`${card} left-[21%] p-4 top-14 z-20`}>
             <p className="font-satoshi">UI/UX Design</p>
             <p className="text-xs text-gray-400">
@@ -86,7 +81,6 @@ export default function CoverBanner() {
             </p>
           </div>
 
-          {/* Progress */}
           <div className={`${card} right-[28%]  top-14 z-20 w-44`}>
             <p className="text-sm font-satoshi">Learning Progress</p>
             <p className="text-5xl my-2 font-sans font-semibold">55%</p>
