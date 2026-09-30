@@ -1,0 +1,473 @@
+{
+  "navLinks": [
+    {
+      "name": "Home",
+      "href": "/"
+    },
+    {
+      "name": "Courses",
+      "href": "/courses"
+    },
+    {
+      "name": "Creators",
+      "href": "/author"
+    }
+  ],
+  "about": {
+    "description": {
+      "title": "Description",
+      "paragraphs": [
+        "Embark on an enlightening exploration into the world of digital creation with our comprehensive course, \"Build Digital Assets: A Comprehensive Guide.\" This transformative learning experience invites you to delve deep into the intricacies of crafting impactful digital content. From laying the groundwork with foundational concepts to mastering advanced techniques, this guide is meticulously curated to empower you with the skills essential for navigating the dynamic landscape of digital asset creation.",
+        "In the initial modules, you'll establish a solid foundation by immersing yourself in the foundational concepts that form the backbone of digital asset creation. Understanding the fundamental elements that constitute compelling digital content and gain proficiency in leveraging these elements to communicate effectively in the digital realm.",
+        "As you progress through the course, you'll ascend to higher levels of expertise, delving into the nuances of design principles that drive impactful creations. Uncover the secrets behind effective visual communication, exploring color theory, typography, and layout strategies that elevate your digital assets to new heights. Engage in hands-on exercises that reinforce your understanding, allowing you to apply these principles in practical scenarios."
+      ]
+    },
+    "sneakPeak": {
+      "title": "Sneak Peak",
+      "images": [
+        "/images/about/ab-1.jpg",
+        "/images/about/ab-2.jpg",
+        "/images/about/ab-3.jpg",
+        "/images/about/ab-4.jpg"
+      ]
+    },
+    "keyPoints": {
+      "title": "Key Points",
+      "items": [
+        "Foundational Concepts",
+        "Design Principles Mastery",
+        "Advanced Techniques in Digital Creation",
+        "Project Showcase and Critique",
+        "Optimizing for Various Platforms",
+        "Digital Asset Management Best Practices",
+        "Monetization Strategies",
+        "Capstone Project: Building Your Portfolio"
+      ]
+    }
+  },
+
+  "reviews": {
+    "title": "What Learners Are Saying",
+    "description": "Discover what our learners have to say about their experience with 'Build Digital Assets: A Comprehensive Guide.' Read reviews and ratings from individuals who have embarked on the transformative journey of mastering digital asset creation.",
+
+    "summary": {
+      "rating": 4.7,
+      "totalReviews": 940,
+      "ratingDistribution": [
+        {
+          "rating": 5,
+          "count": 720,
+          "percentage": 76.6
+        },
+        {
+          "rating": 4,
+          "count": 120,
+          "percentage": 12.8
+        },
+        {
+          "rating": 3,
+          "count": 21,
+          "percentage": 2.2
+        },
+        {
+          "rating": 2,
+          "count": 12,
+          "percentage": 1.3
+        },
+        {
+          "rating": 1,
+          "count": 16,
+          "percentage": 1.7
+        }
+      ]
+    },
+
+    "individualReviews": {
+      "title": "Individual Reviews:",
+      "filters": ["All rating", "5", "4", "3", "2", "1"],
+
+      "items": [
+        {
+          "id": 1,
+          "name": "PurePearl Studio",
+          "role": "UI/UX Designer",
+          "image": "/images/reviewer/rv-1.png",
+          "date": "a year ago",
+          "rating": 5,
+          "comment": "The course provided me with a comprehensive understanding of digital asset creation. The lessons were in-depth, practical, and immediately applicable to my work. Highly recommended!"
+        },
+        {
+          "id": 2,
+          "name": "Albert Flores",
+          "role": "UI/UX Designer",
+          "image": "/images/reviewer/rv-2.png",
+          "date": "a year ago",
+          "rating": 5,
+          "comment": "This course transformed my approach to digital design. The combination of theory, hands-on exercises, and real-world applications made it a truly enriching experience. Excited to implement what I've learned!"
+        },
+        {
+          "id": 3,
+          "name": "Cody Fisher",
+          "role": "UI/UX Designer",
+          "image": "/images/reviewer/rv-3.png",
+          "date": "a year ago",
+          "rating": 5,
+          "comment": "The project showcase and critique module created a collaborative environment where I could showcase my work, receive valuable feedback, and refine my skills. It added a unique and valuable dimension to the learning process."
+        },
+        {
+          "id": 4,
+          "name": "Brooklyn Simmons",
+          "role": "UI/UX Designer",
+          "image": "/images/reviewer/rv-4.png",
+          "date": "a year ago",
+          "rating": 5,
+          "comment": "The lessons on optimizing digital assets for various platforms were particularly insightful. The course adapts to the evolving digital landscape, and the engaging content kept me motivated throughout."
+        }
+      ]
+    }
+  },
+
+  "modules": {
+    "title": "Explore the Modules",
+    "description": "Immerse yourself in the course content as we break down each module into comprehensive lessons, providing practical insights and hands-on experiences.",
+
+    "lessonList": {
+      "title": "Lesson List",
+      "lessons": [
+        {
+          "id": 1,
+          "title": "Module 1: Introduction to Digital Assets",
+          "description": "Lay the groundwork with lessons like 'Understanding Digital Elements' and 'Navigating Design Software Tools.' Dive into the essentials of digital asset creation."
+        },
+        {
+          "id": 2,
+          "title": "Module 2: Design Principles for Impact",
+          "description": "Master the principles that drive impactful designs with lessons such as 'Color Theory in Digital Design' and 'Typography Essentials.' Elevate your visual communication skills."
+        },
+        {
+          "id": 4,
+          "title": "Module 4: User-Centric Design Strategies",
+          "description": "Understand 'Design Thinking in Digital Creation' and delve into 'User Experience (UX) Essentials.' Craft digital assets with a focus on user-centric design."
+        },
+        {
+          "id": 5,
+          "title": "Module 5: Interactive Media and Engagement",
+          "description": "Engage your audience with lessons like 'Creating Interactive Presentations' and 'Integrating Multimedia Elements.' Master the art of creating immersive digital experiences."
+        },
+        {
+          "id": 6,
+          "title": "Module 6: Project Showcase and Critique",
+          "description": "Perfect your presentation skills with 'Effective Presentation Techniques' and embrace collaboration with 'Peer Critique and Collaboration.' Showcase your work with confidence."
+        },
+        {
+          "id": 7,
+          "title": "Module 7: Optimizing Digital Assets for Various Platforms",
+          "description": "Adapt your digital creations for 'Mobile Platforms' and optimize for 'Social Media.' Ensure widespread accessibility and engagement across diverse digital landscapes."
+        }
+      ]
+    },
+
+    "lessonContent": {
+      "title": "Lesson Content",
+      "description": "Engage with each lesson through captivating video content, detailed textual explanations, and interactive elements. Download resources, complete assignments, and test your understanding with quizzes."
+    },
+
+    "lessonProgress": {
+      "title": "Lesson Progress Tracking",
+      "description": "Witness your growth as you complete lessons, with an intuitive progress tracking feature guiding you through your learning journey.",
+      "progress": {
+        "label": "Learning Progress",
+        "percentage": 55
+      }
+    }
+  },
+
+  "skilTags": [
+    "Featured",
+    "Music",
+    "Drawing & Painting",
+    "Marketing",
+    "Animation",
+    "Social Media",
+    "UI/UX Design",
+    "Creative Marketing",
+    "Digital Illustration",
+    "Film & Video",
+    "Crafts",
+    "Freelance & Entrepreneurship",
+    "Graphic Design",
+    "Photography",
+    "Productivity",
+    "Web Development",
+    "Data Science",
+    "Cooking"
+  ],
+  "skilss": [
+    "Featured",
+    "Music",
+    "Drawing & Painting",
+    "Marketing",
+    "Animation",
+    "Social Media",
+    "UI/UX Design",
+    "Creative Marketing",
+    "Cooking"
+  ],
+
+  "categories": [
+    "Featured",
+    "Music",
+    "Drawing & Painting",
+    "Marketing",
+    "Animation",
+    "Social Media",
+    "UI/UX Design",
+    "Creative Marketing",
+    "Digital Illustration",
+    "Film & Video",
+    "Crafts",
+    "Freelance & Entrepreneurship",
+    "Graphic Design",
+    "Photography",
+    "Productivity",
+    "Web Development",
+    "Data Science",
+    "Cooking"
+  ],
+
+  "logos": [
+    "/images/ligoipshum/Frame (4).png",
+    "/images/ligoipshum/Frame (3).png",
+    "/images/ligoipshum/Frame (2).png",
+    "/images/ligoipshum/Frame (1).png",
+    "/images/ligoipshum/Frame.png"
+  ],
+
+  "courses": [
+    {
+      "id": 1,
+      "image": "/images/course/coding.jpg",
+      "title": "Learn Figma from Basic",
+      "author": "purepural studio",
+      "authorLink": "/purepural-studio",
+      "link": "/course-details/learn-figma-from-basic",
+      "rating": "4.2",
+      "lessons": "20 Lessons",
+      "duration": "1 hours",
+      "comments": "79 Comments",
+      "level": "Beginner",
+      "price": "$225",
+      "priceType": "Lifetime",
+      "visitor_images": "/images/ellips/Ellipse (1).png"
+    },
+    {
+      "id": 2,
+      "image": "/images/course/digital-asset.jpg",
+      "title": "Build Digital Asset",
+      "author": "purepural studio",
+      "authorLink": "/purepural-studio",
+      "link": "/course-details/build-digital-asset",
+      "rating": "4.1",
+      "lessons": "12 Lessons",
+      "duration": "3 hours 16 mins",
+      "comments": "29 Comments",
+      "level": "Beginner",
+      "price": "$165",
+      "priceType": "Lifetime",
+      "visitor_images": "/images/ellips/Ellipse (2).png"
+    },
+    {
+      "id": 3,
+      "image": "/images/course/bigdata.jpg",
+      "title": "The Power of Big Data",
+      "author": "purepural studio",
+      "authorLink": "/purepural-studio",
+      "link": "/course-details/power-of-big-data",
+      "rating": "4.6",
+      "lessons": "19 Lessons",
+      "duration": "5 hours 16 mins",
+      "comments": "69 Comments",
+      "level": "Beginner",
+      "price": "$65",
+      "priceType": "Lifetime",
+      "visitor_images": "/images/ellips/Ellipse (3).png"
+    },
+    {
+      "id": 4,
+      "image": "/images/course/productivity.jpg",
+      "title": "Balancing Productivity and Work",
+      "author": "purepural studio",
+      "authorLink": "/purepural-studio",
+      "link": "/course-details/balancing-productivity-and-work",
+      "rating": "4.0",
+      "lessons": "32 Lessons",
+      "duration": "4 hours 6 mins",
+      "comments": "39 Comments",
+      "level": "Beginner",
+      "price": "$75",
+      "priceType": "Lifetime",
+      "visitor_images": "/images/ellips/Ellipse (4).png"
+    },
+    {
+      "id": 5,
+      "image": "/images/course/mastaring.jpg",
+      "title": "Mastering Money Management",
+      "author": "purepural studio",
+      "authorLink": "/purepural-studio",
+      "link": "/course-details/mastering-money-management",
+      "rating": "4.3",
+      "lessons": "11 Lessons",
+      "duration": "12 hours 26 mins",
+      "comments": "89 Comments",
+      "level": "Beginner",
+      "price": "$85",
+      "priceType": "Lifetime",
+      "visitor_images": "/images/ellips/Ellipse (5).png"
+    },
+    {
+      "id": 6,
+      "image": "/images/course/startup.jpg",
+      "title": "From Idea to Startup Success",
+      "author": "purepural studio",
+      "authorLink": "/purepural-studio",
+      "link": "/course-details/from-idea-to-startup-success",
+      "rating": "4.5",
+      "lessons": "26 Lessons",
+      "duration": "1 hours 46 mins",
+      "comments": "40 Comments",
+      "level": "Beginner",
+      "price": "$75",
+      "priceType": "Lifetime",
+      "visitor_images": "/images/ellips/Ellipse (6).png"
+    }
+  ],
+
+  "users": [
+    "/images/users/user-1.jpg",
+    "/images/users/user-2.jpg",
+    "/images/users/user-3.jpg",
+    "/images/users/user-4.jpg"
+  ],
+
+  "visitor_images": [
+    "/images/ellips/Ellipse (1).png",
+    "/images/ellips/Ellipse (2).png",
+    "/images/ellips/Ellipse (3).png",
+    "/images/ellips/Ellipse (4).png"
+  ],
+
+  "students_image": [
+    "/images/students/std-1.png",
+    "/images/students/std-2.png",
+    "/images/students/std-3.png",
+    "/images/students/std-4.png",
+    "/images/students/std-5.png",
+    "/images/students/std-7.png",
+    "/images/students/std-6.png"
+  ],
+
+  "learningPaths": [
+    {
+      "name": "Design",
+      "icon": "MdDesignServices"
+    },
+    {
+      "name": "Development",
+      "icon": "MdDeveloperMode"
+    },
+    {
+      "name": "IT & Software",
+      "icon": "MdOutlineLaptop"
+    },
+    {
+      "name": "Business",
+      "icon": "IoBusiness"
+    },
+    {
+      "name": "Marketing",
+      "icon": "/images/others/marketing.png"
+    },
+    {
+      "name": "Photography",
+      "icon": "/images/others/photography.png"
+    }
+  ],
+  "creatorShapes": [
+    {
+      "image": "/images/shape/shape-1.png",
+      "color": "#D4FB20"
+    },
+    {
+      "image": "/images/shape/shape-1.png",
+      "color": "#FFFFFF"
+    },
+    {
+      "image": "/images/shape/shape-2.png",
+      "color": "#CBFC01"
+    },
+    {
+      "image": "/images/shape/shape-3.png",
+      "color": "#FFFFFF"
+    },
+    {
+      "image": "/images/shape/shape-4.png",
+      "color": "#FFFFFF"
+    },
+    {
+      "image": "/images/shape/shape-5.png",
+      "color": "#CBFC01"
+    },
+    {
+      "image": "/images/shape/shape-1.png",
+      "color": "#D4FB20"
+    }
+  ],
+
+  "community": [
+    {
+      "name": "Sarah M.",
+      "role": "Enthusiastic Learner",
+      "image": "/images/community/man-1.png",
+      "text": "ByteSpace has transformed my approach to learning. The diverse range of courses and the quality of content provided by creators have exceeded my expectations. The platform truly fosters a sense of community and lifelong learning."
+    },
+    {
+      "name": "James L.",
+      "role": "Lifelong Learner",
+      "image": "/images/community/man-2.png",
+      "text": "I've tried several online learning platforms, and ByteSpace stands out for its vibrant community and the variety of courses available. The easy navigation and engaging content make it a go-to platform for continuously skill development."
+    },
+    {
+      "name": "Alex B.",
+      "role": "Inspired Creator",
+      "image": "/images/community/man-3.png",
+      "text": "As a creator, I'm passionate about sharing knowledge and helping others grow. The course editor is user-friendly, and the support from the community is incredible. It's fulfilling to see my courses making a positive impact on learners globally."
+    }
+  ],
+  "legalLinks": [
+    { "label": "Privacy Policy", "href": "/privacy-policy" },
+    { "label": "Terms of Service", "href": "/terms" },
+    { "label": "Cookies Settings", "href": "/cookies-settings" }
+  ],
+
+  "navOne": [
+    { "label": "Featured Courses", "href": "/courses" },
+    { "label": "Featured Categories", "href": "/categories" },
+    { "label": "Business", "href": "/categories/business" },
+    { "label": "IT", "href": "/categories/it" },
+    { "label": "Design", "href": "/categories/design" }
+  ],
+  "navTwo": [
+    { "label": "Development", "href": "/categories/development" },
+    { "label": "Marketing", "href": "/categories/marketing" },
+    { "label": "Photography", "href": "/categories/photography" },
+    { "label": "Finance", "href": "/categories/finance" },
+    { "label": "Sport", "href": "/categories/sport" }
+  ],
+  "navThree": [
+    { "label": "Become a Creator", "href": "/become-creator" },
+    { "label": "Affiliate Program", "href": "/affiliate" },
+    { "label": "Contact", "href": "/contact" },
+    { "label": "Help", "href": "/help" },
+    { "label": "About", "href": "/about" }
+  ]
+}
