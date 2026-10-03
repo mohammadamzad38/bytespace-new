@@ -28,7 +28,7 @@ export default function Footer() {
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="h-full min-w-0 w-94 flex-1 rounded-full px-6 py-4.5 border border-[#dedede] text-[#CED0D3] outline-none placeholder:text-[#555]"
+                className="h-full min-w-0 w-94 flex-1 rounded-full px-6 py-3 md:py-4.5 border border-[#dedede] text-[#CED0D3] outline-none placeholder:text-[#555]"
               />
 
               <button
