@@ -48,16 +48,16 @@ export default function GrowthSection() {
             `,
           }}
         >
-          <div className="space-y-18 container">
-            <div className="grid grid-cols-2 items-center gap-10">
+          <div className="space-y-0 md:space-y-18 container">
+            <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10">
               <div className="pl-10">
-                <h2 className="font-satoshi text-[44px] font-semibold text-[#20232D]">
+                <h2 className="font-satoshi text-3xl md:text-[44px] font-semibold text-[#20232D]">
                   Your Path to Professional
                   <br />
                   Growth Starts Here!
                 </h2>
 
-                <p className="mt-10 font-satoshi text-lg text-[#4B4C53]">
+                <p className="my-4 md:my-10 font-satoshi text-sm md:text-lg text-[#4B4C53]">
                   Explore our curated selection of courses tailored to enhance
                   your capabilities and accelerate your career journey.
                   <br />
@@ -66,30 +66,30 @@ export default function GrowthSection() {
                   we have the resources you need.
                 </p>
 
-                <div className="mt-10 flex gap-8">
+                <div className="flex gap-8">
                   <div>
-                    <h3 className="font-sans text-4xl font-medium text-[#003BE2]">
+                    <h3 className="font-sans text-2xl md:text-4xl font-medium text-[#003BE2]">
                       12K
                     </h3>
-                    <p className="font-satoshi text-lg text-[#4B4C53]">
+                    <p className="font-satoshi text-sm md:text-lg text-[#4B4C53]">
                       Students
                     </p>
                   </div>
 
                   <div>
-                    <h3 className="font-sans text-4xl font-medium text-[#003BE2]">
+                    <h3 className="font-sans text-2xl md:text-4xl font-medium text-[#003BE2]">
                       70+
                     </h3>
-                    <p className="font-satoshi text-lg text-[#4B4C53]">
+                    <p className="font-satoshi text-sm md:text-lg text-[#4B4C53]">
                       Courses
                     </p>
                   </div>
 
                   <div>
-                    <h3 className="font-sans text-4xl font-medium text-[#003BE2]">
+                    <h3 className="font-sans text-2xl md:text-4xl font-medium text-[#003BE2]">
                       16
                     </h3>
-                    <p className="font-satoshi text-lg text-[#4B4C53]">
+                    <p className="font-satoshi text-sm md:text-lg text-[#4B4C53]">
                       Creators
                     </p>
                   </div>
@@ -97,7 +97,7 @@ export default function GrowthSection() {
               </div>
 
               <div className="relative flex h-138 items-center justify-center">
-                <div className="absolute left-5 top-2 z-10 h-96 w-full max-w-93.25 rounded-3xl border border-[#D9DCE2] bg-white p-4 shadow-sm">
+                <div className="absolute left-5 top-2 z-10 h-96 w-[70%] md:w-full max-w-93.25 rounded-3xl border border-[#D9DCE2] bg-white p-4 shadow-sm">
                   <div className="relative h-[195.14px] w-full overflow-hidden rounded-[10px]">
                     <div className="h-48.75 w-85.25">
                       <Image
@@ -110,15 +110,15 @@ export default function GrowthSection() {
                     </div>
 
                     <div className="absolute bottom-[19.14px] left-3 right-3 flex items-center justify-between font-satoshi text-xs">
-                      <span className="rounded-full bg-white/80 px-3 py-1.5 text-[#4F4F4F] backdrop-blur-sm">
+                      <span className="rounded-full bg-white/80 text-[8px] md:text-sm px-2 md:px-3 py-1.5 text-[#4F4F4F] backdrop-blur-sm">
                         12 Leasons
                       </span>
 
-                      <span className="rounded-full bg-white/80 px-3 py-1.5 text-[#4F4F4F] backdrop-blur-sm">
+                      <span className="rounded-full bg-white/80 text-xs md:text-sm px-2 md:px-3 py-1.5 text-[#4F4F4F] backdrop-blur-sm">
                         2 hours 5 min
                       </span>
 
-                      <span className="rounded-full bg-white/80 px-3 py-1.5 text-[#4F4F4F] backdrop-blur-sm">
+                      <span className="rounded-full bg-white/80 text-xs md:text-sm px-2 md:px-3 py-1.5 text-[#4F4F4F] backdrop-blur-sm">
                         21 comments
                       </span>
                     </div>
@@ -149,7 +149,7 @@ export default function GrowthSection() {
                           width={48}
                           height={48}
                           alt=""
-                          className="h-12 w-12 rounded-full border-2 border-white object-cover"
+                          className="h-8 md:h-12 w-8 md:w-12 rounded-full border-2 border-white object-cover"
                         />
                       ))}
 
@@ -173,12 +173,16 @@ export default function GrowthSection() {
                   alt=""
                   width={577}
                   height={540}
-                  className="absolute bottom-0 top-12 -right-6 z-20 h-full w-144.25 object-contain"
+                  className="absolute bottom-0 top-12 -right-6 z-20 h-full w-200 md:w-144.25 object-contain"
                 />
 
-                <ProgressCard />
+                <div
+                  className={`absolute right-8 lg:right-4 top-60 lg:top-52 z-20 `}
+                >
+                  <ProgressCard />
+                </div>
 
-                <div className="absolute -right-1.25 top-12 z-40 h-54 w-54 rotate-[-8deg]">
+                <div className="absolute -right-1.25 top-30 lg:top-12 z-40 h-30 md:h-54 w-30 md:w-54 rotate-[-8deg]">
                   <Image
                     src="/images/others/Frame.png"
                     alt="vector"
@@ -191,8 +195,8 @@ export default function GrowthSection() {
               </div>
             </div>
 
-            <div className="grid grid-cols-2 items-center justify-center gap-10">
-              <div className="relative flex h-149 items-center justify-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-center gap-5 md:gap-10">
+              <div className="relative flex flex-col md:flex-row h-130 md:h-149 items-center justify-center">
                 <div className="absolute left-18 top-8 z-10 w-58 rounded-lg bg-[#003BE2] p-4 font-satoshi text-white">
                   <p>Total Revenue</p>
                   <p className="text-[10px]">July 1-28</p>
@@ -206,7 +210,7 @@ export default function GrowthSection() {
                   </div>
                 </div>
 
-                <div className="absolute left-18 top-42 z-10 w-32.5 rounded-lg bg-[#003BE2] p-3 text-white">
+                <div className="absolute left-18 top-42 z-10 w-35 md:w-32.5 rounded-lg bg-[#003BE2] p-3 text-white">
                   <p>Year to Date</p>
                   <p className="text-[10px]">2023</p>
 
@@ -229,7 +233,7 @@ export default function GrowthSection() {
 
                 <StudentCard />
 
-                <div className="absolute right-18 top-20 z-20 w-54">
+                <div className="absolute -right-10 md:right-18 top-35 md:top-20 z-20 w-30 md:w-54">
                   <Image
                     src="/images/shape/shape-1.png"
                     alt="Shape"
@@ -242,7 +246,7 @@ export default function GrowthSection() {
                 </div>
               </div>
 
-              <div className="pr-20">
+              <div className="md:pr-20">
                 <h2 className="max-w-100 font-sans text-[30px] font-semibold text-black">
                   Create & Manage
                   <br />
